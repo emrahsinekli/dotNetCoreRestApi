@@ -1,0 +1,59 @@
+2022-04-12 23:21:31.114 +03:00 [INF] Now listening on: https://localhost:7022
+2022-04-12 23:21:31.123 +03:00 [INF] Now listening on: http://localhost:5022
+2022-04-12 23:21:31.129 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 23:21:31.130 +03:00 [INF] Hosting environment: Development
+2022-04-12 23:21:31.131 +03:00 [INF] Content root path: C:\Users\MedBim\source\repos\dotNetCoreRestApi\dotNetCoreRestApi\
+2022-04-12 23:21:31.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2022-04-12 23:21:32.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2022-04-12 23:21:32.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 174.7387ms
+2022-04-12 23:21:32.008 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.8547ms
+2022-04-12 23:21:32.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2022-04-12 23:21:32.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 62.9774ms
+2022-04-12 23:21:34.362 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - -
+2022-04-12 23:21:34.369 +03:00 [INF] Executing endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:21:34.377 +03:00 [INF] Route matched with {action = "GetAllStudents", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllStudents() on controller dotNetCoreRestApi.Controllers.StudentsController (dotNetCoreRestApi).
+2022-04-12 23:21:34.383 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[dotNetCoreRestApi.Models.Student, dotNetCoreRestApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-12 23:21:34.391 +03:00 [INF] Executed action dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi) in 9.5607ms
+2022-04-12 23:21:34.393 +03:00 [INF] Executed endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:21:34.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - - - 200 - application/json;+charset=utf-8 31.7764ms
+2022-04-12 23:22:31.459 +03:00 [INF] Now listening on: https://localhost:7022
+2022-04-12 23:22:31.467 +03:00 [INF] Now listening on: http://localhost:5022
+2022-04-12 23:22:31.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 23:22:31.472 +03:00 [INF] Hosting environment: Development
+2022-04-12 23:22:31.473 +03:00 [INF] Content root path: C:\Users\MedBim\source\repos\dotNetCoreRestApi\dotNetCoreRestApi\
+2022-04-12 23:22:32.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2022-04-12 23:22:32.212 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2022-04-12 23:22:32.214 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 176.1525ms
+2022-04-12 23:22:32.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.9608ms
+2022-04-12 23:22:32.337 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2022-04-12 23:22:32.405 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.1115ms
+2022-04-12 23:22:34.584 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - -
+2022-04-12 23:22:34.590 +03:00 [INF] Executing endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:22:34.598 +03:00 [INF] Route matched with {action = "GetAllStudents", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllStudents() on controller dotNetCoreRestApi.Controllers.StudentsController (dotNetCoreRestApi).
+2022-04-12 23:22:34.605 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[dotNetCoreRestApi.Models.Student, dotNetCoreRestApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-12 23:22:34.613 +03:00 [INF] Executed action dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi) in 9.739ms
+2022-04-12 23:22:34.614 +03:00 [INF] Executed endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:22:34.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - - - 200 - application/json;+charset=utf-8 31.5973ms
+2022-04-12 23:23:10.032 +03:00 [INF] Now listening on: https://localhost:7022
+2022-04-12 23:23:10.040 +03:00 [INF] Now listening on: http://localhost:5022
+2022-04-12 23:23:10.043 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 23:23:10.044 +03:00 [INF] Hosting environment: Development
+2022-04-12 23:23:10.045 +03:00 [INF] Content root path: C:\Users\MedBim\source\repos\dotNetCoreRestApi\dotNetCoreRestApi\
+2022-04-12 23:23:10.712 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/index.html - -
+2022-04-12 23:23:10.887 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - -
+2022-04-12 23:23:10.889 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/index.html - - - 200 - text/html;charset=utf-8 179.5180ms
+2022-04-12 23:23:10.895 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.3323ms
+2022-04-12 23:23:11.010 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - -
+2022-04-12 23:23:11.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 62.5320ms
+2022-04-12 23:23:13.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - -
+2022-04-12 23:23:13.567 +03:00 [INF] Executing endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:23:13.574 +03:00 [INF] Route matched with {action = "GetAllStudents", controller = "Students"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllStudents() on controller dotNetCoreRestApi.Controllers.StudentsController (dotNetCoreRestApi).
+2022-04-12 23:23:13.581 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[dotNetCoreRestApi.Models.Student, dotNetCoreRestApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-12 23:23:13.589 +03:00 [INF] Executed action dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi) in 10.0367ms
+2022-04-12 23:23:13.591 +03:00 [INF] Executed endpoint 'dotNetCoreRestApi.Controllers.StudentsController.GetAllStudents (dotNetCoreRestApi)'
+2022-04-12 23:23:13.592 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7022/api/Students/GetAllStudents - - - 200 - application/json;+charset=utf-8 31.3339ms
+2022-04-12 23:23:31.068 +03:00 [INF] Now listening on: https://localhost:7022
+2022-04-12 23:23:31.075 +03:00 [INF] Now listening on: http://localhost:5022
+2022-04-12 23:23:31.078 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-12 23:23:31.080 +03:00 [INF] Hosting environment: Development
+2022-04-12 23:23:31.081 +03:00 [INF] Content root path: C:\Users\MedBim\source\repos\dotNetCoreRestApi\dotNetCoreRestApi\
